@@ -1,0 +1,101 @@
+body {
+    width: 100vw;
+    height:100vh;
+    padding:5% 35%;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-page{
+    height: auto;
+    width: 400px; 
+    
+    -moz-box-align: center;
+    /*border: 1px solid black;*/
+    background-color: rgb(250, 251, 253);
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left:40px;
+    
+   
+     
+    
+}
+h1{
+    padding-top: 10px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    
+    
+}
+.login input{
+  background-color: aliceblue;
+}
+.email-address label{
+    align-self: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 0.5cm;
+    
+    
+}
+.email-address input{
+    height:30px;
+    width: 80%;
+    background-color: rgba(249, 247, 247, 0.3);
+   align-items: auto;
+   font-size: large;
+
+}
+.email-password label{
+    align-self: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 0.5cm;
+    
+    
+}
+.email-password input{
+    height:30px;
+    width: 80%; 
+    background-color: rgba(211, 211, 211,0.3) ; 
+    align-items: center;
+    font-size: large;
+    
+     
+}
+.button{
+    padding-top: 50px; 
+    padding-bottom: 30px; 
+}
+.button input:hover{
+    box-shadow: -5px 5px 10px green ;
+    background-color: rgb(9, 190, 9);
+    transition: .2s;
+}
+.button input{
+     width: 40%;
+    font-size: large;
+    font-weight: 700;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+    background-color: rgb(34, 195, 6);
+}
+@media (max-width:768px){
+    .login-page{
+        height:100%;
+        width:70%;
+    }
+    body{
+       padding-left: 15%;
+       padding-top: 20%;
+    }
+    .button{
+        padding-bottom: 30px;
+    }
+}

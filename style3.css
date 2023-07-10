@@ -1,0 +1,91 @@
+body{
+    padding:0;
+    margin:0;
+}
+input{
+    width: 70%;
+    height:30px;
+    text-align:center;
+    justify-content:center;
+    border-radius:5px;
+    font-size:20px;
+    font-style:bold;
+   
+}
+button{
+    background-color:green;
+    height:35px;
+    font-size:20px;
+    border-radius:5px;
+    padding:5px 5px;
+    text-align:center;
+    justify-content:center;
+    width:70%;
+    
+    
+
+}
+div{
+    padding-top:20px;
+    padding-left:10%;
+}
+table th{
+background-color:gray;
+padding:10px;
+font-size:21px;
+}
+table td {
+    padding:10px;
+    font-size:21px;
+}
+
+.delete-cont{
+    padding-bottom:20px;
+}
+.container{
+    text-align:center;
+    justify-content:center;
+}
+.submit{
+    background-color:green;
+    height:35px;
+    font-size:20px;
+    border-radius:5px;
+    padding:5px 5px;
+    text-align:center;
+    justify-content:center;
+    width:70%;
+    
+}
+.back{
+    text-decoration:none;
+    height:25px;
+    width:60px;
+    background-color:green;
+    border-radius:5px;
+    float:right;
+    padding:5px;
+    font-size:20px;
+    text-align:center;
+    justify-content:center;
+    color:black;
+}
+
+
+/* delete page */
+
+
+.delete{
+    background-color:green;
+    height:32px;
+    font-size:20px;
+    border-radius:5px;
+    padding:5px 5px;
+    text-align:center;
+    justify-content:center;
+    width:auto;
+}
+.delete-page{
+    padding-top:20px;
+    padding-left:10px;
+}
